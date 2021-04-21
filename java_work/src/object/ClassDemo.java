@@ -5,7 +5,7 @@ class C1{
 	int a =2;
 	
 	//클레스 메서드
-	static void static_static_()
+	static void a()
 	{
 		System.out.println(static_var);
 	}
@@ -13,7 +13,7 @@ class C1{
 	static void static_instance()
 	{
 		//클래스 메소드에서는 인스턴스 변수에 접근할 수 없다.
-		System.out.println();
+		System.out.println(a);
 	}
 	
 	void instance_static()
@@ -34,7 +34,7 @@ public class ClassDemo {
 		C1 c1= new C1();
 		//인스턴스를 이용해서 정적 메소드에 접근 > 성공
 		//인스턴스 메소드가 정적 변수에 접근  > 성공 
-		c1.static_static_();
+		//c1.a();
 		
 		//인스턴스를 이용해서 정적 메소드에 접근 > 성공
 		//인스턴스 메소드가 정적 변수에 접근  > 실패
@@ -46,7 +46,7 @@ public class ClassDemo {
 		//인스턴스를 이용해서 정적 메소드에 접근 > 성공
 		//인스턴스 메소드가 정적 변수에 접근  > 성공 
 		//클레스는 고정적. 
-		C1.static_static_();
+		//C1.a();
 		
 		//인스턴스를 이용해서 정적 메소드에 접근 > 성공
 		//인스턴스 메소드가 정적 변수에 접근  > 실패
