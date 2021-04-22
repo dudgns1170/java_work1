@@ -23,6 +23,7 @@ public class ScopeDemo5 {
 		// TODO Auto-generated method stub
 		C c1 = new C();
 		c1.m();
+		
 	}
 
 }
