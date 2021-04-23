@@ -11,6 +11,7 @@ class C
 	int v = 10; // 전역 변수
 	
 	void m()
+	//static void m()
 	{
 		
 		int v = 20; //지역변수
@@ -23,6 +24,7 @@ public class ScopeDemo5 {
 		// TODO Auto-generated method stub
 		C c1 = new C();
 		c1.m();
+		// C.m  static 로 작성된 메서든느 객체를 생성 사용을 권하지 않음.
 		
 	}
 
