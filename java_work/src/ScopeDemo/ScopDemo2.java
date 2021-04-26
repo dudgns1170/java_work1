@@ -16,6 +16,7 @@ public class ScopDemo2 {
 			System.out.println(i);
 		}
 		
+		
 
 	}
 
