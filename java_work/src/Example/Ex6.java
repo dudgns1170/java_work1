@@ -79,33 +79,31 @@ public class Ex6 {
 	a= random.nextInt(10);
 	System.out.println(a);*/
 
-	
-	//Scanner sc = new Scanner(System.in);
 	//ex8)
 		/*int a =0;
 		Random random = new Random();
 		a= random.nextInt(9);
 		System.out.println(a*-1);
 		
-		int v = (int)(Math.random()*8+1);
-		System.out.println(v);*/
-		
-		//i = (int)(Math.random()*8+1);
-		//j = (int)(Math.random()*-8-1);
-		//k=(int)(Math.random()*89+10);
-		
 		/*int a =10;
 		Random random = new Random();
 		a= random.nextInt(100);
 		System.out.println(a);*/
+	// 다른 방식 
+	//int v = (int)(Math.random()*8+1);
+	//System.out.println(v);
+	
+	//i = (int)(Math.random()*8+1);
+	//j = (int)(Math.random()*-8-1);
+	//k=(int)(Math.random()*89+10);
 		
 		//ex90
 	// 정수값을 +5 -5 범위의 랜점 함수.
-	Random ra = new Random();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("입력값");
-		int i = sc.nextInt();
-		System.out.println(i-5+ ra.nextInt(11));
+	//Random ra = new Random();
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println("입력값");
+		//int i = sc.nextInt();
+		//System.out.println(i-5+ ra.nextInt(11));
 
 		
 	}

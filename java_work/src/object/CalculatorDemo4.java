@@ -1,7 +1,7 @@
 package object;
 
 class Calculator{
-	//static double PI = 3.14;
+	//static double PI = 3.14; //static가 붙으면 클래스 변수다.
 	int left, right;
 	//생성자 만들기 클래스 이름과 동일하게 사용.
 	public Calculator(int left, int right)
