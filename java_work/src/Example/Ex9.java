@@ -40,6 +40,7 @@ public class Ex9 {
 		b.a(10, 30,40);
 		b.sum();
 		b.avg();
+		
 
 	}
 

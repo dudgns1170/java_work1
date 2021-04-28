@@ -146,7 +146,7 @@ public class Ex11 {
 		int i = sc.nextInt();
 		if(i >= 0 && i <=49)
 			System.out.println("가");
-		else if (i)
+	
 		
 	
 

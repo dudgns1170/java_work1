@@ -45,6 +45,7 @@ public class Ex8 {
 		// TODO Auto-generated method stub
 		Sub1 c1 = new Sub1();
 		c1.Set(23, 17);
+		
 		c1.avg();
 
 	}
