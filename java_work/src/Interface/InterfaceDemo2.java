@@ -1,4 +1,4 @@
-package Interface;
+ package Interface;
 //가짜 클레스 
 class CalculatorDummy{
 	public void Set(int a, int b, int c) {}

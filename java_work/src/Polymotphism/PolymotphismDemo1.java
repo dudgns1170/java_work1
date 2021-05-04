@@ -10,7 +10,7 @@ class O
 	}
 	public void a(String param)
 	{
-		System.out.println("문자자");
+		System.out.println("문자");
 		System.out.println(param);
 	}
 	}

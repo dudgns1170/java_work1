@@ -1,7 +1,8 @@
 package Polymotphism;
 class A{
 	public String x()
-	{return "x";}
+	{System.out.println("hi");
+	return "x";}
 }
 
 class B extends A{
@@ -10,14 +11,22 @@ class B extends A{
 		return "y";
 	}
 }
+
+class C extends B{
+	public String z()
+	{
+		return "z";
+	}
+}
 public class PolymotphismDemo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 B obj = new B();
+		A obj = new B(); 
+		//B obj1 = new B();
 		obj.x();
-		//
-		obj.y();
+		// y메서드는 A 타입으로되어 있기 때문에  출력이 안된다. 
+//		obj.y();
 
 	}
 
