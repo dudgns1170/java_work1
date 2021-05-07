@@ -15,6 +15,7 @@ class O
 	}
 	}
 
+
 public class PolymotphismDemo1 {
 
 	public static void main(String[] args) {

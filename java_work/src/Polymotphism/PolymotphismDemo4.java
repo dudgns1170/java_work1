@@ -28,6 +28,7 @@ class calplus extends cal{
 		System.out.println("+sum:"+_sum());
 	}
 	public void avg() {
+		
 		System.out.println((this.a+this.b)/2);
 	}
 }
@@ -67,6 +68,6 @@ public class PolymotphismDemo4{
 		execute(c2);
 		
 
-	}
+}
 
 }
