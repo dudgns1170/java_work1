@@ -87,12 +87,16 @@ public class Ex18 {
 		if(v>0){
 		while(i < v)
 			{
-			System.out.println("*");
+			System.out.print("*");
 			i++;
 			}
-		System.out.println();
+		
 		
 		}
+//		for(int i =0; i < v; i++)
+//			{System.out.print("*");
+//			}
+//		
 
 		/*System.out.println("입력");
 		int v = sc.nextInt();
@@ -106,4 +110,5 @@ public class Ex18 {
 
 		
 
-}}
+}
+}
