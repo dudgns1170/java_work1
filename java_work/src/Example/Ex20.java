@@ -17,6 +17,14 @@ public class Ex20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		chile ch =new chile();
+		ch.method2();
+		ch.method1();
+		ch.method3();
+		System.out.println();
+		parent pa = new parent();
+		pa.method1();
+		pa.method2();
 
 	}
 

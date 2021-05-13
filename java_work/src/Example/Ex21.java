@@ -67,13 +67,14 @@ public class Ex21 {
 		System.out.println("증가값");
 		int d = sc.nextInt();
 		
-		double sum = 0;
+		
+//		double sum = 0;
 		System.out.println("신장"+"|"+"표준 체중");
 		System.out.println("----------");
 		for(int i =min; i < max; i= i+d)
 		{
-			sum =(i-100)*0.9;
-			System.out.println(i+"  | "+sum);	
+//			sum =(i-100)*0.9;
+			System.out.println(i+"  | "+(i-100)*0.9);	
 		}
 		
 		
