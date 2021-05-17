@@ -10,7 +10,8 @@ class Cal{
 		this.b=b;
 	}
 	public void divide()
-	{try{
+	{try
+	{
 		System.out.println("결과");
 		System.out.println(this.a/this.b);
 		System.out.println(" 입니다");
@@ -18,8 +19,13 @@ class Cal{
 	{
 		System.out.println("\n\ne.getMessage()\n"+e.getMessage());
 //		System.out.println("\n\ne.toStrig()\n"+e.toString());
+//		 경로 추척 하는 오류 문구
 //		System.out.println("\n\ne.printStackTrace()");
 //		e.printStackTrace();
+	}
+	finally
+	{
+//		finally는 생략가능 하며 예외와 무관하게 항상 실행해야할 내용이 있을 경우애만 작성.
 	}
 	System.out.println("Divide End");
 	}

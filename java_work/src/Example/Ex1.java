@@ -10,8 +10,17 @@ public class Ex1 {
 	double total = x+y /2;
 	System.out.println(x + y);
 	System.out.println(total);
-	//float º¸´Ü double »ç¿ë ÇÏ¿© ¹®Á¦ Ç®ÀÌ
+	//float ï¿½ï¿½ï¿½ï¿½ double ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç®ï¿½ï¿½
 	
+	int [] a = {2,2,4,4,6,7,7,5,2};
+	int i = a.length -1;
+	int cut =0;
+	while (i >=0) {
+		if(a[i] ==2)
+			cut ++;
+		i--;
+	}
+	System.out.println(cut);
 
 	}
 
