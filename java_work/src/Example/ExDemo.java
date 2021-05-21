@@ -8,16 +8,23 @@ public class ExDemo {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("입력");
-		int input = sc.nextInt();
-		int sum =0;
-		for(int i =0; i<=input; i++)
-		{	System.out.print(i);
-		if (i != input)
-			System.out.print("+");
+		int input;
+		do {
+			input= sc.nextInt();
+			
+		}while(input<2);
+		int a;
+		for(a=2; a<input;a++)
+		{
+			if(a%2==0)
+				{System.err.println("소수");
+				break;}
+			else
+			{
+				System.out.println("소수가 x");
+			}
 		
-		sum += i;
 		}
-		System.out.println("="+sum);
 	}
 
 }
