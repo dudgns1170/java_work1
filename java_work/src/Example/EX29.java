@@ -57,9 +57,21 @@ public class EX29 {
 			}
 //		System.out.println(Arrays.toString(i));
 		
-		
 
-		
+				// TODO Auto-generated method stub
+		//5/25문제 풀이
+//				0.0부터 1.0까지 0.001단위로 증가 시키면서 해당 값으 ㅣ제곱읖 표시하시오.
+//				for(float i =0.0F; i <1.0F ;i+=0.001F)
+//				{System.out.printf("%5.3f               %10.7f\n",i,i*i);}
+//				
+//				for(int i=0; i<1000; i++)
+//				{
+//					float x = (float)i/1000;
+//					System.out.printf("%5.3f              %10.7\n x,x*x");
+//				}
+//				System.out.println("\"ABC|n\"" );
+			}
+
 			
 	}
-}
+
