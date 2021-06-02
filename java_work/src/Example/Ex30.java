@@ -46,9 +46,7 @@ public class Ex30 {
 		for(i =i=0; i< arr.length; i++)
 			{
 			arr[i]= sc.nextInt();
-			System.out.println(i+1+"번점수="+arr[i]);
-			
-			
+			System.out.println(i+1+"번점수="+arr[i]);	
 			sum +=arr[i];
 			
 			if(max <arr[i])
