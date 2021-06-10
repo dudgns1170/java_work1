@@ -43,17 +43,19 @@ public class Ex32 {
 //			System.out.println("a["+i+"]번쨰 정수"+a[i]);
 //		
 //		3번 인접하는 요소가 동일한 값을 가지지 않도록 2번문제 를 수정 
-	Scanner sc = new Scanner(System.in);
-		
+		// 겹치지진 않지만 배열의 크기가 10을 넘는디.
+		Scanner sc = new Scanner(System.in);
 		System.out.println("요소수 입력");
 		int input = sc.nextInt();
 		int [] a = new int[input];
 		Random ra = new Random();
 		for(int i =0; i<input ; i++)
 		{
-			a[i] += 1 + ra.nextInt(10);
+			
+	
 			for(int v=0; v<i; v++)
 			{
+				a[i] += 1 + ra.nextInt(10);
 				if(a[i]==a[v]) 
 				{
 					i--;
