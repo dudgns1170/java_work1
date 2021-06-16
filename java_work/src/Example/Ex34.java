@@ -11,7 +11,7 @@ public class Ex34 {
 
 //		1번 배열의 나열 순서를 섞는(임의의 순서가 되도록 순서를 바꿈)프로그램 작성
 //		요소수 입력 까지 할 수 있음.
-/*		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		Random ra = new Random();
 		System.out.println("요소수 입력");
 		int input = sc.nextInt();
@@ -36,7 +36,7 @@ public class Ex34 {
 		for(int i= 0; i<input; i++)
 		{
 			System.out.println("arr["+i+"]="+arr[i]);
-		}*/
+		}
 //		2번 배열 a 의 모든 요를 역순으로 배열 b에 복사 하는 프로그램 
 //	Scanner sc = new Scanner(System.in);
 //		System.out.println("요소수 입력");
@@ -64,7 +64,7 @@ public class Ex34 {
 //		}
 //		3번 월을 1~12월 까지 표시하고 해당월의 영어 단어를 입력하는 프로그램 월은 난수 생성으로 
 //		equals,
-		Scanner sc = new Scanner(System.in);
+		/*Scanner sc = new Scanner(System.in);
 		Random ra =new Random();
 //		int [] arr = {12};
 		String[] month= {"January", "February", "March", "April", "May", "June", 
@@ -97,12 +97,12 @@ public class Ex34 {
 		retry = sc.nextInt();
 		}while(retry ==1);
 	}
-	}
+	}*/
 	
 
-	
+	}
 		
-	
+	}
 
 
 	
